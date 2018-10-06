@@ -1,8 +1,12 @@
-;;; purp-common --- generate purp and purp-light themes
+;;; purp-common.el --- simple themes with few colors
+
+;; Author: Vincent Foley <vfoley@gmail.com>
+;; URL: https://github.com/gnuvince/purp
+;; Version: 1.0
+;; Keywords: color, theme
 
 ;;; Commentary:
-;;; A function, mktheme, to make it easier to keep purp and purp-light in sync.
-
+;;; - mktheme: a function that abstracts away the actual colors
 
 ;;; Code:
 
