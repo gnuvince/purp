@@ -11,7 +11,8 @@
 ;;; Code:
 
 (defun purp-common-mktheme (theme-name &rest colors)
-  "Create a purp theme."
+  "Create a purp theme.
+THEME-NAME is the of the variant, COLORS is a plist of the colors to use."
   (let* (
          ;; The four main text colors (excluding special handling)
          (default-fg  (plist-get colors :default-fg))
