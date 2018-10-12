@@ -1,17 +1,14 @@
-;;; purp-light --- an Emacs theme
+;;; purp-light-theme.el --- A light color theme with few colors
+
+;;; Copyright (C) 2018 Vincent Foley
+
+;; Author: Vincent Foley <vfoley@gmail.com>
+;; URL: https://github.com/gnuvince/purp
+;; Version: 1.0
+;; Keywords: color, theme
 
 ;;; Commentary:
-
-;;; I find that most themes highlight too many things
-;;; and that makes nothing really stand out.  In purp,
-;;; I try to highlight only a few faces:
-;;;
-;;; - string and character literals
-;;; - comments
-;;; - function declarations
-;;;
-;;; Everything else is kept to the default foreground color.
-
+;;; This is the light variant of purp.
 
 ;;; Code:
 
@@ -39,4 +36,4 @@
 
 (provide-theme 'purp-light)
 
-;;; purp-light-theme ends here
+;;; purp-light-theme.el ends here
