@@ -3,14 +3,14 @@
 ;; Author: Vincent Foley <vfoley@gmail.com>
 ;; URL: https://github.com/gnuvince/purp
 ;; Version: 1.0
-;; Keywords: color, theme
+;; Keywords: faces
 
 ;;; Commentary:
 ;;; - mktheme: a function that abstracts away the actual colors
 
 ;;; Code:
 
-(defun mktheme (theme-name &rest colors)
+(defun purp-common-mktheme (theme-name &rest colors)
   "Create a purp theme."
   (let* (
          ;; The four main text colors (excluding special handling)
