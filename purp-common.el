@@ -132,7 +132,7 @@ THEME-NAME is the of the variant, COLORS is a plist of the colors to use."
      `(org-code                     ((t (:foreground ,default-fg))))
      `(org-column                   ((t (:foreground ,default-fg))))
      `(org-column-title             ((t (:foreground ,default-fg))))
-     `(org-date                     ((t (:foreground ,string-fg))))
+     `(org-date                     ((t (:foreground ,default-fg))))
      `(org-date-selected            ((t (:foreground ,default-fg))))
      `(org-default                  ((t (:foreground ,default-fg))))
      `(org-document-info            ((t (:foreground ,default-fg))))
