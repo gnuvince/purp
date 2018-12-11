@@ -180,6 +180,23 @@ THEME-NAME is the of the variant, COLORS is a plist of the colors to use."
      `(org-verse                    ((t (:foreground ,default-fg))))
      `(org-warning                  ((t (:foreground ,default-fg))))
 
+     `(ediff-current-diff-A        ((t (:foreground ,default-fg :background "#aa3300"))))
+     `(ediff-current-diff-Ancestor ((t (:foreground ,default-fg :background ,default-bg))))
+     `(ediff-current-diff-B        ((t (:foreground ,default-fg :background "#33aa00"))))
+     `(ediff-current-diff-C        ((t (:foreground ,default-fg :background "#0033aa"))))
+     `(ediff-even-diff-A           ((t (:foreground ,default-fg :background "#444444"))))
+     `(ediff-even-diff-Ancestor    ((t (:foreground ,default-fg :background ,default-bg))))
+     `(ediff-even-diff-B           ((t (:foreground ,default-fg :background "#444444"))))
+     `(ediff-even-diff-C           ((t (:foreground ,default-fg :background "#444444"))))
+     `(ediff-fine-diff-A           ((t (:foreground ,default-fg :background "#551100"))))
+     `(ediff-fine-diff-Ancestor    ((t (:foreground ,default-fg :background ,default-bg))))
+     `(ediff-fine-diff-B           ((t (:foreground ,default-fg :background "#115500"))))
+     `(ediff-fine-diff-C           ((t (:foreground ,default-fg :background "#001155"))))
+     `(ediff-odd-diff-A            ((t (:foreground ,default-fg :background "#444444"))))
+     `(ediff-odd-diff-Ancestor     ((t (:foreground ,default-fg :background ,default-bg))))
+     `(ediff-odd-diff-B            ((t (:foreground ,default-fg :background "#444444"))))
+     `(ediff-odd-diff-C            ((t (:foreground ,default-fg :background "#444444"))))
+
      )))
 
 (provide 'purp-common)
