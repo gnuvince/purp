@@ -156,7 +156,7 @@ THEME-NAME is the of the variant, COLORS is a plist of the colors to use."
      `(org-level-7                  ((t (:foreground ,function-fg))))
      `(org-level-8                  ((t (:foreground ,function-fg))))
      `(org-link                     ((t (:foreground ,default-fg))))
-     `(org-list-dt                  ((t (:foreground ,default-fg))))
+     `(org-list-dt                  ((t (:foreground ,default-fg :weight bold))))
      `(org-macro                    ((t (:foreground ,default-fg))))
      `(org-meta-line                ((t (:foreground ,default-fg))))
      `(org-mode-line-clock          ((t (:foreground ,default-fg))))
